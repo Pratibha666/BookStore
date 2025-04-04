@@ -1,96 +1,96 @@
 [
     {
         "id":1,
-        "name":"Story Book",
-        "title":"Lorem ipsum",
+        "title":"Story Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":2,
-        "name":"Drama Book",
-        "title":"Lorem ipsum",
+        "title":"Drama Book",
+        "name":"Lorem ipsum",
         "price":20,
         "category":"Drama",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":3,
-        "name":"Horror Book",
-        "title":"Lorem ipsum",
+        "title":"Horror Book",
+        "name":"Lorem ipsum",
         "price":15,
         "category":"Horror",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":4,
-        "name":"Entertainment Book",
-        "title":"Lorem ipsum",
+        "title":"Entertainment Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":5,
-        "name":"Kids Book",
-        "title":"Lorem ipsum",
+        "title":"Kids Book",
+        "name":"Lorem ipsum",
         "price":20,
         "category":"Kids",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":6,
-        "name":"Fiction Book",
-        "title":"Lorem ipsum",
+        "title":"Fiction Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":7,
-        "name":"Non-fiction Book",
-        "title":"Lorem ipsum",
+        "title":"Non-fiction Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":8,
-        "name":"Science Book",
-        "title":"Lorem ipsum",
+        "title":"Science Book",
+        "name":"Lorem ipsum",
         "price":30,
         "category":"Science",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":9,
-        "name":"History Book",
-        "title":"Lorem ipsum",
+        "title":"History Book",
+        "name":"Lorem ipsum",
         "price":12,
         "category":"History",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":10,
-        "name":"GK Book",
-        "title":"Lorem ipsum",
+        "title":"GK Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":11,
-        "name":"Knowledge Book",
-        "title":"Lorem ipsum",
+        "title":"Knowledge Book",
+        "name":"Lorem ipsum",
         "price":0,
         "category":"Free",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"
     },
     {
         "id":12,
-        "name":"Comedy Book",
-        "title":"Lorem ipsum",
+        "title":"Comedy Book",
+        "name":"Lorem ipsum",
         "price":20,
         "category":"Comedy",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741245584~exp=1741249184~hmac=dae4e85e0cd47a5f80fe0b6847eaf9372692b49c63bc729f07e84e2b9d0957fc&w=900"

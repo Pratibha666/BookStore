@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import book from '../../public/book.jpg'
+import '../App.css'
 const StyledButton = styled.button`
   width: 100px;
   height: 40px;
@@ -30,31 +31,39 @@ const StyledButton = styled.button`
   }
 `;
 
+
 const Cards = ({ item }) => {
+  const { title, author_name, cover_i, first_publish_year, key } = item;
+
   return (
-    <>
+    <div className="card bg-base-100 w-96 shadow-sm">
+      <figure>
+        {cover_i ? (
+          <img
+            src={`https://covers.openlibrary.org/b/id/${cover_i}-M.jpg`} 
+            alt={title}
+            />
+        ) : (
+          <img src={book} alt="No cover available" className="w-full h-auto" />
+        )}
+      </figure>
+      <div className="flex justify-between">
+        <h2 className="card-title font-extrabold text-[20px]">{title}</h2>
+        <StyledButton>{author_name ? author_name.join(", ") : "Author"}</StyledButton>
+      </div>
       <div>
-        <div className="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img src={item.image} alt="Shoes" />
-          </figure>
-          <div className='flex justify-between'>
-            <h2 className="card-title font-extrabold text-[20px]">
-              {item.name}
-            </h2>
-            <StyledButton>{item.category}</StyledButton>
-          </div>
-          <div>
-            <p className='ml-30 font-bold'>{item.title}</p>
-            <div className="card-actions flex justify-between">
-              <StyledButton>Rs. {item.price}</StyledButton>
-              <StyledButton>Buy</StyledButton>
-            </div>
-          </div>
+        <p className="ml-30 font-bold">{first_publish_year ? `Published: ${first_publish_year}` : "Published: 2020"}</p>
+        <div className="card-actions flex justify-between">
+          <StyledButton>
+            <a href={`https://openlibrary.org${key}`} target="_blank" rel="noopener noreferrer">
+              More
+            </a>
+          </StyledButton>
+          <StyledButton>Buy</StyledButton>
         </div>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default Cards;

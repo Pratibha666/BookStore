@@ -7,13 +7,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [loading, setLoading] = useState(false);
   const element = document.documentElement;
-  
+  const navigate = useNavigate();
   useEffect(() => {
     if (theme === "dark") {
       element.classList.add("dark");
@@ -105,10 +105,11 @@ const Navbar = () => {
     fontWeight: 'bold',
   };
 
-  const handleClick = () => {
+  const handleClick = (path) => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false); 
+      navigate(path);
     }, 2000);
   };
 
@@ -121,31 +122,31 @@ const Navbar = () => {
               BookStore
             </Typography>
             <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <Button color="inherit" sx={{ textTransform: 'none', fontWeight: 'bold' }} component={Link} to="/">Home</Button>
+              <Button 
+              color="inherit" 
+              sx={{ textTransform: 'none', fontWeight: 'bold' }} 
+              onClick={()=>handleClick('/')}
+              >
+              Home
+              </Button>
               <Button
                 color="inherit"
                 sx={{ textTransform: 'none', fontWeight: 'bold' }}
-                component={Link}
-                to="/course"
-                onClick={handleClick} 
+                onClick={()=>handleClick('/course')}
               >
                 Course
               </Button>
               <Button
                color="inherit" 
                sx={{ textTransform: 'none', fontWeight: 'bold' }}
-                component={Link}
-                to="/contact"
-                onClick={handleClick}
+               onClick={()=>handleClick('/contact')}
                >
                 Contact
                 </Button>
               <Button
                color="inherit" 
                sx={{ textTransform: 'none', fontWeight: 'bold' }}
-               component={Link}
-               to="/about"
-               onClick={handleClick}
+               onClick={()=>handleClick('/about')}
                >
                 About
                 </Button>
@@ -192,9 +193,7 @@ const Navbar = () => {
             </Box>
             <Button 
             sx={loginButtonStyle}
-            component={Link}
-            to="/login"
-            onClick={handleClick}
+            onClick={()=>handleClick('/login')}
             >Login</Button>
           </Toolbar>
         </AppBar>
