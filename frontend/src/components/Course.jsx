@@ -15,21 +15,21 @@ const StyledButton = styled.button`
   font-weight: 500;
   background: #008080;
   cursor: pointer;
-  transition: box-shadow 0.5s ease, background 0.5s ease;
+  transition: box-shadow 0.5s ease, background 12.5s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
-    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+              7px 7px 20px 0px rgba(0, 0, 0, .1),
+              4px 4px 5px 0px rgba(0, 0, 0, .1);
   outline: none;
   font-size: 15px;
   margin-right: 10px;
 
   &:hover {
-    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
-      -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
-      inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
-      inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
     background: linear-gradient(0deg, #008080 0%, #008080 100%);
   }
 `;

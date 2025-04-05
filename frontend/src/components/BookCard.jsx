@@ -58,7 +58,7 @@ const BookCard = ({ book }) => {
       </p>
       <button 
       onClick={handleMoreInfoClick} 
-      className="text-[#008080] text-2xl mt-2 inline-block cursor-pointer z-100 "
+      className="text-[#008080] text-xl mt-2 inline-block cursor-pointer"
       >
         More Info
       </button>
