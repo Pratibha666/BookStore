@@ -1,7 +1,6 @@
 ## BookStore
 Bookstore is a dynamic and user-friendly application built with React to provide an engaging experience for book lovers. It offers features for browsing, searching, and managing a collection of books. Whether you're a casual reader or a dedicated bibliophile, Bookstore aims to simplify your journey into the world of books.
 
-
 ## Features
 1. Browse through a wide collection of books.
 2. Search for your favourite titles.
