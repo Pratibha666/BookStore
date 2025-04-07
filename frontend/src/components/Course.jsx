@@ -79,7 +79,7 @@ const BookCard = ({ book }) => {
       <p className="mt-2 text-sm">
         {book.first_publish_year ? `Published: ${book.first_publish_year}` : 'No publish year available'}
       </p>
-      <button onClick={handleMoreInfoClick} className="text-[#008080] text-sm mt-2 inline-block">
+      <button onClick={handleMoreInfoClick} className="text-[#008080] text-[18px] font-bold mt-2 inline-block cursor-pointer">
         More Info
       </button>
       {loadingDescription ? (
